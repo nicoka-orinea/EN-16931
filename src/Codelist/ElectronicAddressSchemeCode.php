@@ -54,6 +54,7 @@ enum ElectronicAddressSchemeCode : string
         case FRCTC_ELECTRONIC_ADDRESS = '0225';
         case NATIONAL_E_INVOICING_FRAMEWORK = '0230';
         case UAE_TAX_IDENTIFICATION_NUMBER_TIN = '0235';
+        case PPF_GLOBAL_IDENTIFIER = '0238';
         case DANISH_MINISTRY_OF_THE_INTERIOR_AND_HEALTH = '9901';
         case HUNGARY_VAT_NUMBER = '9910';
         case BUSINESS_REGISTERS_NETWORK = '9913';
