@@ -7,7 +7,7 @@ namespace Tiime\EN16931\Converter;
 use Tiime\EN16931\Codelist\TimeReferencingCodeUNTDID2005;
 use Tiime\EN16931\Codelist\TimeReferencingCodeUNTDID2475;
 
-final readonly class TimeReferencingCodeUNTDID2005ToTimeReferencingCodeUNTDID2475
+final class TimeReferencingCodeUNTDID2005ToTimeReferencingCodeUNTDID2475
 {
     public static function convertToUNTDID2475(TimeReferencingCodeUNTDID2005 $code): TimeReferencingCodeUNTDID2475
     {

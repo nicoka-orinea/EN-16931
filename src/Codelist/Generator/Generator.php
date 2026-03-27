@@ -5,7 +5,7 @@ namespace Tiime\EN16931\Codelist\Generator;
 /**
  * @internal
  */
-final readonly class Generator
+final class Generator
 {
     private const string ENUM_TEMPLATE = <<<'TEMPLATE'
 <?php

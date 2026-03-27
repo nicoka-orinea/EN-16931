@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tiime\EN16931\DataType\Identifier;
 
-readonly class MandateReferenceIdentifier
+class MandateReferenceIdentifier
 {
-    public function __construct(public string $value)
+    public function __construct(public readonly string $value)
     {
     }
 }

@@ -6,11 +6,11 @@ namespace Tiime\EN16931\DataType\Identifier;
 
 use Tiime\EN16931\Codelist\InternationalCodeDesignator;
 
-readonly class StandardItemIdentifier
+class StandardItemIdentifier
 {
     public function __construct(
-        public string $value,
-        public InternationalCodeDesignator $scheme
+        public readonly string $value,
+        public readonly InternationalCodeDesignator $scheme
     ) {
     }
 }

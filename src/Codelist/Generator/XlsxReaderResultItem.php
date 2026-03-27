@@ -2,11 +2,11 @@
 
 namespace Tiime\EN16931\Codelist\Generator;
 
-final readonly class XlsxReaderResultItem
+final class XlsxReaderResultItem
 {
     public function __construct(
-        public string $name,
-        public string $value,
+        public readonly string $name,
+        public readonly string $value,
     ) {
     }
 

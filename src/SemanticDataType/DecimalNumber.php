@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Tiime\EN16931\SemanticDataType;
 
-readonly class DecimalNumber implements Number
+class DecimalNumber implements Number
 {
     public function __construct(
-        private float $value,
-        private ?int $decimals = null
+        private readonly float $value,
+        private readonly ?int $decimals = null
     ) {
         if (
             $this->decimals !== null

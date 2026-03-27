@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Tiime\EN16931\DataType\Identifier;
 
-readonly class TaxRegistrationIdentifier
+class TaxRegistrationIdentifier
 {
     public function __construct(
-        public string $value
+        public readonly string $value
     ) {
     }
 }
