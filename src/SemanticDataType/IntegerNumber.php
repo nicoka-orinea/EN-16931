@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Tiime\EN16931\SemanticDataType;
 
-readonly class IntegerNumber implements Number
+class IntegerNumber implements Number
 {
     public function __construct(
-        private int $value
+        private readonly int $value
     ) {
     }
 

@@ -2,7 +2,7 @@
 
 namespace Tiime\EN16931\Codelist\Generator;
 
-final readonly class CodelistGenerator
+final class CodelistGenerator
 {
     public static function generateCodelists(
         string $fileToRead

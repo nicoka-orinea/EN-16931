@@ -5,7 +5,7 @@ namespace Tiime\EN16931\Codelist\Generator;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
-final readonly class XlsxReader
+final class XlsxReader
 {
     public static function read(
         string $filename,
